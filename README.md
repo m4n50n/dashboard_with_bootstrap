@@ -1,6 +1,6 @@
 # ⚙ Dashboard with Bootstrap
 
-✏ *Simple dashboard website to practice with **Bootstrap** grid and **Flexbox***.
+✏ *Simple personal dashboard website to practice with **Bootstrap** grid and **Flexbox***.
 
 ## What to do next?
 
