@@ -1,0 +1,70 @@
+body {
+    background-color: #f2f2f2;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3, h4, h5, small {
+    font-family: "Roboto", sans-serif;
+}
+
+/* -- SIDEBAR -- */
+.m-sidebar {
+    background-color: #262a34;
+    min-width: 300px;
+    min-height: 100vh;
+}
+.m-sidebar a {
+    color: #fff;
+}
+.m-sidebar .logo {
+    background-color: #0275db;
+}
+.m-sidebar i.fas {
+    font-size: 1.7em;
+}
+
+/* --- MENU --- */
+.m-sidebar .menu a {
+    display: block;
+    padding: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    border-bottom: 1px solid rgb(255,255,255,.1);
+}
+.m-sidebar .menu a:hover {
+    background-color: #35ae6b;
+}
+.m-sidebar .menu a svg {
+    margin-right: 5px;
+}
+
+/* -- MAIN CONTENT -- */
+.main textarea {
+    min-height: 200px;
+    max-height: 400px;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+/* -- MEDIA QUERIES -- */
+/* sm */
+@media screen and (max-width: 575.98px) {
+    .m-sidebar {
+        min-height: auto;
+    }
+}
+
+/* lg */
+@media screen and (max-width: 991.98px) {
+    .m-sidebar {
+        min-width: auto;
+    }
+    .m-sidebar .logo {
+        display: none;
+    }
+}
